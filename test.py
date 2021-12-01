@@ -12,8 +12,8 @@ twitter_api = twitter.Api(consumer_key=twitter_consumer_key,
                           access_token_key = twitter_access_token,
                           access_token_secret = twitter_access_secret)
 
-searchword = ["Tesla"]
-output_file = "Tesla.json"
+searchword = ["Biden"]
+output_file = "Biden.json"
 print("Real time Searching..")
 with open(output_file, 'w', encoding="utf-8") as output:
     stream = twitter_api.GetStreamFilter(track=searchword)
