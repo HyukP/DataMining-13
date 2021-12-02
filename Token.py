@@ -9,6 +9,7 @@ def replace_words(text):
     words = ' '.join(re.sub("(@[A-Za-z0-9]+)|(#[A-Za-z0-9]+)", " ", text).split())
     words = ' '.join(re.sub("[\.\,\!\?\:\;\-\=\#\/]", " ", words).split())
     words = words.replace("RT"," ") ##RT란 단어는 필요가 없다고 판단.
+    words = words.replace("…"," ")
     words = words.lower()
     words = words.split()
     return words
