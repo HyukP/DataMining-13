@@ -20,4 +20,6 @@
   - test.py를 파이썬으로 실행하면 됩니다.(Spyder나 Colab은 아마 안될겁니다. 로컬에서 vscode를 통해 python 환경은 만드시거나 jupyter notebook 사용하세요.)
 
 
-- code는 계속 수정중입니다.
+### 추가 사항
+
+- next.py file을 통해서 tokenization을 수행했습니다. 확인 부탁드립니다.
