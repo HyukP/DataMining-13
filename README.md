@@ -17,9 +17,9 @@
    - 참고로 python-twitter pip만 install해서 되는 경우도 있으니 먼저 pip를 설치하시고 안되시면 이후 진행하세요.
  
  2. running
-  - test.py를 파이썬으로 실행하면 됩니다.(Spyder나 Colab은 아마 안될겁니다. 로컬에서 vscode를 통해 python 환경은 만드시거나 jupyter notebook 사용하세요.)
+  - Stream.py를 파이썬으로 실행하면 됩니다.(Spyder나 Colab은 아마 안될겁니다. 로컬에서 vscode를 통해 python 환경은 만드시거나 jupyter notebook 사용하세요.)
 
 
 ### 추가 사항
 
-- next.py file을 통해서 tokenization을 수행했습니다. 확인 부탁드립니다.
+- Token.py file을 통해서 tokenization을 수행했습니다. 확인 부탁드립니다.
