@@ -18,12 +18,13 @@ dataset['words'] = dataset['full_text'].apply(replace_words)
 tfidf_vectorizer.fit(dataset['words'])
       
 sorted(tfidf_vectorizer.vocabulary_.items())
-text = tfidf_vectorizer.vocabulary_
+text = tfidf_vectorizer.vocabulary_.items()
+print(text)
 
 print(tfidf_vectorizer.fit_transform(dataset['words']).shape)
-
-output_file = "Omicron.json"
+sen = ""
+output_file = "Voca_in_COVID2.txt"
 with open(output_file, 'w', encoding="utf-8") as output:
-    for line in dataset['words']:
+    for line in text:
         output.write(str(line) + '\n')
-        
+
