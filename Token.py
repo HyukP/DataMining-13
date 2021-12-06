@@ -12,7 +12,7 @@ def replace_words(text):
     words = words.lower()
     return words
 
-dataset = pd.read_json('./Biden.json', lines = True)
+dataset = pd.read_json('./CoVID2.json', lines = True)
 tfidf_vectorizer = TfidfVectorizer(min_df = 0)
 dataset['words'] = dataset['full_text'].apply(replace_words)
 tfidf_vectorizer.fit(dataset['words'])
@@ -22,7 +22,7 @@ text = tfidf_vectorizer.vocabulary_
 
 print(tfidf_vectorizer.fit_transform(dataset['words']).shape)
 
-output_file = "Biden_words.txt"
+output_file = "Omicron.json"
 with open(output_file, 'w', encoding="utf-8") as output:
     for line in dataset['words']:
         output.write(str(line) + '\n')
