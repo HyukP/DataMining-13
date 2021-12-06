@@ -8,14 +8,13 @@ np.set_printoptions(precision=2, linewidth=120)
 def replace_words(text):
     words = ' '.join(re.sub("(@[A-Za-z0-9]+)|(#[A-Za-z0-9]+)", " ", text).split())
     words = ' '.join(re.sub("[\.\,\!\?\:\;\-\=\#\/]", " ", words).split())
-    words = words.replace("RT"," ") ##RT란 단어는 필요가 없다고 판단.
     words = words.replace("…"," ")
     words = words.lower()
     return words
 
 dataset = pd.read_json('./Biden.json', lines = True)
 tfidf_vectorizer = TfidfVectorizer(min_df = 0)
-dataset['words'] = dataset['text'].apply(replace_words)
+dataset['words'] = dataset['full_text'].apply(replace_words)
 tfidf_vectorizer.fit(dataset['words'])
       
 sorted(tfidf_vectorizer.vocabulary_.items())
