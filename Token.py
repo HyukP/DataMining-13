@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import re
-import itertools
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 np.set_printoptions(precision=2, linewidth=120)
 
@@ -11,18 +11,20 @@ def replace_words(text):
     words = words.replace("RT"," ") ##RT란 단어는 필요가 없다고 판단.
     words = words.replace("…"," ")
     words = words.lower()
-    words = words.split()
     return words
 
-
 dataset = pd.read_json('./Biden.json', lines = True)
-
+tfidf_vectorizer = TfidfVectorizer(min_df = 0)
 dataset['words'] = dataset['text'].apply(replace_words)
+tfidf_vectorizer.fit(dataset['words'])
+      
+sorted(tfidf_vectorizer.vocabulary_.items())
+text = tfidf_vectorizer.vocabulary_
 
-output_file = "Biden_words.json"
+print(tfidf_vectorizer.fit_transform(dataset['words']).shape)
 
-## 분리하고 가공화한 데이터를 print한다. 이후 data를 json file로 저장한다.
-print(dataset['words']) 
-with open(output_file, 'w', encoding='utf-8') as f:
+output_file = "Biden_words.txt"
+with open(output_file, 'w', encoding="utf-8") as output:
     for line in dataset['words']:
-        f.write(str(line) + '\n')
+        output.write(str(line) + '\n')
+        
