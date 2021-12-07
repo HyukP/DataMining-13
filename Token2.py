@@ -12,8 +12,8 @@ twitter_api = twitter.Api(consumer_key=twitter_consumer_key,
                           access_token_secret = twitter_access_secret,
                           tweet_mode='extended')
 
-searchword = ["omicron"] ## 대괄호 안의 String은 keyword에 해당함. 이에 따라 검색하는 내용도 달라진다.
-output_file = "COVID.json" ## Output File 이름의 형식
+searchword = ["Vaccinated"] ## 대괄호 안의 String은 keyword에 해당함. 이에 따라 검색하는 내용도 달라진다.
+output_file = "Vaccinated.json" ## Output File 이름의 형식
 print("Real time Searching..")
 with open(output_file, 'w', encoding="utf-8") as output:
     stream = twitter_api.GetStreamFilter(track=searchword, stall_warnings=True, languages=["en"])
@@ -21,7 +21,7 @@ with open(output_file, 'w', encoding="utf-8") as output:
         for tweets in stream:
             try:
                 if tweets['truncated'] == True :
-                    tweet = json.dumps(tweets, ensure_ascii=False)
+                    tweet = json.dumps(tweets['extended_tweet'], ensure_ascii=False)
                     print(tweet, file=output, flush=True)
                 elif tweets['truncated'] == False :
                     print("Test")  

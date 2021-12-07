@@ -12,7 +12,7 @@ def replace_words(text):
     words = words.lower()
     return words
 
-dataset = pd.read_json('./CoVID2.json', lines = True)
+dataset = pd.read_json('./Vaccinated.json', lines = True)
 tfidf_vectorizer = TfidfVectorizer(min_df = 0)
 dataset['words'] = dataset['full_text'].apply(replace_words)
 tfidf_vectorizer.fit(dataset['words'])
@@ -23,8 +23,8 @@ print(text)
 
 print(tfidf_vectorizer.fit_transform(dataset['words']).shape)
 sen = ""
-output_file = "Voca_in_COVID2.txt"
+output_file = "Voca_in_Vaccinated.txt"
 with open(output_file, 'w', encoding="utf-8") as output:
-    for line in text:
+    for line in dataset['words']:
         output.write(str(line) + '\n')
 
