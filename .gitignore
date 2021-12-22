@@ -1,3 +1,6 @@
 *.log
 python-twitter
 .vscode
+node_modules
+dist
+.npm
