@@ -8246,23 +8246,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
- //import './App.css';
-//import PropTypes from 'prop-types';
-//import { withStyles } from '@material-ui/core/styles';
-//import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
-
-
-
- //import MenuIcon from '@material-ui/icons/Menu';
-//import IconButton from '@material-ui/core/IconButton';
-//import ExitToApp from '@material-ui/icons/ExitToApp';
-//import Drawer from '@material-ui/core/Drawer';
-//import Forms from './Forms';
-//import HomeIcon from '@material-ui/icons/Home';
-//import Typography from '@material-ui/core/Typography';
-
-
-
 
 
 
@@ -8293,8 +8276,6 @@ var App = /*#__PURE__*/function (_React$Component) {
     });
 
     _this.state = {
-      searchWord: "",
-      moviesearchWord: "",
       isIn: false,
       value: 0
     };
@@ -8304,6 +8285,18 @@ var App = /*#__PURE__*/function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
+      var device = null;
+
+      if (this.state.value == 1) {
+        device = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+          className: "postive",
+          src: "https://i.ibb.co/fMCv5MY/Kakao-Talk-20211222-235009944-01.jpg"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+          className: "Negative",
+          src: "https://i.ibb.co/xj1hDjH/Kakao-Talk-20211222-235009944.jpg"
+        }));
+      }
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["default"], {
         position: "static",
         style: {
@@ -8360,7 +8353,7 @@ var App = /*#__PURE__*/function (_React$Component) {
           textShadow: "#c4e7d2 1px 0 10px",
           fontSize: 40
         }
-      }, "DataMining Project"))));
+      }, "DataMining Project")), device));
     }
   }]);
 

@@ -1,40 +1,17 @@
 import React, { useState } from "react";
-//import './App.css';
-//import PropTypes from 'prop-types';
-//import { withStyles } from '@material-ui/core/styles';
-//import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import {
   AppBar,
   Typography,
-  TextField,
-  Button,
-  Input,
-  IconButton,
   Tab,
   Tabs,
   Box,
+  ImageListItem
 } from "@material-ui/core";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import Toolbar from "@material-ui/core/Toolbar";
-//import MenuIcon from '@material-ui/icons/Menu';
-//import IconButton from '@material-ui/core/IconButton';
-//import ExitToApp from '@material-ui/icons/ExitToApp';
-//import Drawer from '@material-ui/core/Drawer';
-//import Forms from './Forms';
-//import HomeIcon from '@material-ui/icons/Home';
-//import Typography from '@material-ui/core/Typography';
-import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import DuoIcon from "@material-ui/icons/Duo";
-import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
-import LocalMoviesIcon from '@material-ui/icons/LocalMovies';
-
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchWord: "",
-      moviesearchWord:"",
       isIn: false,
       value: 0,
     };
@@ -49,6 +26,16 @@ export default class App extends React.Component {
     this.setState({ value: newValue });
   };
   render() {
+    let device = null;
+    if (this.state.value == 1) {
+      device = (
+        <div>
+        <img className = "postive" src = {"https://i.ibb.co/fMCv5MY/Kakao-Talk-20211222-235009944-01.jpg"}></img>
+        <img className = "Negative" src = {"https://i.ibb.co/xj1hDjH/Kakao-Talk-20211222-235009944.jpg"}></img>
+        </div>
+      );
+    }
+
     return (
       <div>
         <div>
@@ -107,6 +94,7 @@ export default class App extends React.Component {
               DataMining Project
             </Typography>
           </AppBar>
+          {device}
         </div>
       </div>
     );
