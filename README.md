@@ -10,8 +10,9 @@
 ## Explanation about files
 
 * Transformers_for_Sentiment_Analysis_twitter
-  - 딥러닝 모델을 적용하고 이에 따라 워드클라우딩과 긍부정 평균 수치를 분석하는 code입니다.
+  - 딥러닝 모델을 적용하고 이에 따라 워드클라우딩과 긍부정 평균 수치를 분석하는 프로젝트의 goal이자 핵심 code입니다.
   - code를 실행하기 위해서는 colab을 사용했습니다.
+  - 해당 결과를 통한 수치를 로컬 변수로 받아왔습니다.
 
 * Stream.py
   - Twitter로부터 승인받은 키를 이용하여 Twitter API를 사용하기 위한 code입니다.
