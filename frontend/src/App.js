@@ -248,7 +248,7 @@ export default class App extends React.Component {
                   <Tab
                     target="_blank"
                     variant = "Filled"
-                    href="https://github.com/HyukP/DataMining-13"
+                    href="https://git.ajou.ac.kr/Hyuk/twitter_opinionmining"
                     icon={<GitHubIcon fontSize="large" color="error"></GitHubIcon>}
                     {...this.a11yProps(3)}
                   />

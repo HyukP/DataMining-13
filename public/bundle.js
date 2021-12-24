@@ -16080,7 +16080,7 @@ var App = /*#__PURE__*/function (_React$Component) {
       }, this.a11yProps(1))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_9__["default"], _extends({
         target: "_blank",
         variant: "Filled",
-        href: "https://github.com/HyukP/DataMining-13",
+        href: "https://git.ajou.ac.kr/Hyuk/twitter_opinionmining",
         icon: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_icons_GitHub__WEBPACK_IMPORTED_MODULE_10__["default"], {
           fontSize: "large",
           color: "error"
