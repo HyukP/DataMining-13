@@ -46,7 +46,7 @@ export default class App extends React.Component {
     if (this.state.value == 1) {
       device = (
         <div>
-          <Box display= "flex" style={{width :"710px", height:"150px",marginTop : "100px"}}><Card>
+          <Box display= "flex" style={{width :"1180px", height:"150px",marginTop : "100px"}}><Card>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Vaccinated에 대한 wordcloud 결과
@@ -57,10 +57,21 @@ export default class App extends React.Component {
               </Typography>
             </CardContent>
              </Card>
+             <Card style={{marginLeft:30}}>
+             <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Vaccinated에 대한 긍부정 수치(Predict) 결과
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                수집한 데이터를 line단위로 나누어 긍부정 수치를 분석한 결과입니다. 수치가 높을수록 긍정적인 단어가 많이 포함되었다고 보시면 됩니다.
+              </Typography>
+            </CardContent>
+             </Card>
              </Box>
              <Box display="flex" marginTop="10px">
             <img src = {"https://i.ibb.co/gS9DmWj/Vaccinated-0-7.png"} style={{width: "345px", height:"260px", borderRadius:"10px"}}/>
             <img src = {"https://i.ibb.co/vQSDJ8L/Vaccinated-0-3.png"} style={{width: "345px", height:"260px",marginLeft : "20px", borderRadius:"10px"}}/>
+            <img src = {"https://i.ibb.co/BVQcN8N/Vaccinated-predict.png"} style={{width: "345px", height:"260px",marginLeft : "30px", borderRadius:"10px"}}/>
             </Box>
             <Box display= "flex" style={{width :"710px", height:"40px",marginTop : "20px"}}>
               <Card>
@@ -91,7 +102,8 @@ export default class App extends React.Component {
     if (this.state.value == 0) {
       device = (
         <div>
-          <Box display= "flex" style={{width :"710px", height:"150px",marginTop : "100px"}}><Card>
+          <Box display= "flex" style={{width :"1180px", height:"150px",marginTop : "100px"}}>
+            <Card>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Omicron에 대한 wordcloud 결과
@@ -102,10 +114,21 @@ export default class App extends React.Component {
               </Typography>
             </CardContent>
              </Card>
+             <Card style={{marginLeft:30}}>
+             <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Omicron에 대한 긍부정 수치(Predict) 결과
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                수집한 데이터를 line단위로 나누어 긍부정 수치를 분석한 결과입니다. 수치가 높을수록 긍정적인 단어가 많이 포함되었다고 보시면 됩니다.
+              </Typography>
+            </CardContent>
+             </Card>
              </Box>
              <Box display="flex" marginTop="10px">
             <img src = {"https://i.ibb.co/q78V4zQ/OmicronP.png"} style={{width: "345px", height:"260px", borderRadius:"10px"}}/>
             <img src = {"https://i.ibb.co/TwVqymC/OmicronN.png"} style={{width: "345px", height:"260px",marginLeft : "20px", borderRadius:"10px"}}/>
+            <img src = {"https://i.ibb.co/d6p0nFM/Omicron-Predict.png"} style={{width: "345px", height:"260px",marginLeft : "30px", borderRadius:"10px"}}/>
             </Box>
             <Box display= "flex" style={{width :"710px", height:"40px",marginTop : "20px"}}>
               <Card>
@@ -136,7 +159,7 @@ export default class App extends React.Component {
     if (this.state.value == 2) {
       device = (
         <div>
-          <Box display= "flex" style={{width :"710px", height:"150px",marginTop : "100px"}}><Card>
+          <Box display= "flex" style={{width :"1180px", height:"150px",marginTop : "100px"}}><Card>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 BitCoin에 대한 wordcloud 결과
@@ -147,10 +170,21 @@ export default class App extends React.Component {
               </Typography>
             </CardContent>
              </Card>
+             <Card style={{marginLeft:30}}>
+             <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                BitCoin에 대한 긍부정 수치(Predict) 결과
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                수집한 데이터를 line단위로 나누어 긍부정 수치를 분석한 결과입니다. 수치가 높을수록 긍정적인 단어가 많이 포함되었다고 보시면 됩니다.
+              </Typography>
+            </CardContent>
+             </Card>
              </Box>
              <Box display="flex" marginTop="10px">
             <img src = {"https://i.ibb.co/X81N922/Bit-Coin-0-7.png"} style={{width: "345px", height:"260px", borderRadius:"10px"}}/>
             <img src = {"https://i.ibb.co/1b89KtD/Bit-Coin-0-3.png"} style={{width: "345px", height:"260px",marginLeft : "20px", borderRadius:"10px"}}/>
+            <img src = {"https://i.ibb.co/yf6x4gN/Bit-Coin-predict.png"} style={{width: "345px", height:"260px",marginLeft : "30px", borderRadius:"10px"}}/>
             </Box>
             <Box display= "flex" style={{width :"710px", height:"40px",marginTop : "20px"}}>
               <Card>

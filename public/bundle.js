@@ -15717,7 +15717,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         device = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           style: {
-            width: "710px",
+            width: "1180px",
             height: "150px",
             marginTop: "100px"
           }
@@ -15728,7 +15728,18 @@ var App = /*#__PURE__*/function (_React$Component) {
         }, "Vaccinated\uC5D0 \uB300\uD55C wordcloud \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
           variant: "body2",
           color: "text.secondary"
-        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          style: {
+            marginLeft: 30
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          gutterBottom: true,
+          variant: "h5",
+          component: "div"
+        }, "Vaccinated\uC5D0 \uB300\uD55C \uAE0D\uBD80\uC815 \uC218\uCE58(Predict) \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          variant: "body2",
+          color: "text.secondary"
+        }, "\uC218\uC9D1\uD55C \uB370\uC774\uD130\uB97C line\uB2E8\uC704\uB85C \uB098\uB204\uC5B4 \uAE0D\uBD80\uC815 \uC218\uCE58\uB97C \uBD84\uC11D\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB192\uC744\uC218\uB85D \uAE0D\uC815\uC801\uC778 \uB2E8\uC5B4\uAC00 \uB9CE\uC774 \uD3EC\uD568\uB418\uC5C8\uB2E4\uACE0 \uBCF4\uC2DC\uBA74 \uB429\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           marginTop: "10px"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -15744,6 +15755,14 @@ var App = /*#__PURE__*/function (_React$Component) {
             width: "345px",
             height: "260px",
             marginLeft: "20px",
+            borderRadius: "10px"
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+          src: "https://i.ibb.co/BVQcN8N/Vaccinated-predict.png",
+          style: {
+            width: "345px",
+            height: "260px",
+            marginLeft: "30px",
             borderRadius: "10px"
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -15803,7 +15822,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         device = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           style: {
-            width: "710px",
+            width: "1180px",
             height: "150px",
             marginTop: "100px"
           }
@@ -15814,7 +15833,18 @@ var App = /*#__PURE__*/function (_React$Component) {
         }, "Omicron\uC5D0 \uB300\uD55C wordcloud \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
           variant: "body2",
           color: "text.secondary"
-        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          style: {
+            marginLeft: 30
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          gutterBottom: true,
+          variant: "h5",
+          component: "div"
+        }, "Omicron\uC5D0 \uB300\uD55C \uAE0D\uBD80\uC815 \uC218\uCE58(Predict) \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          variant: "body2",
+          color: "text.secondary"
+        }, "\uC218\uC9D1\uD55C \uB370\uC774\uD130\uB97C line\uB2E8\uC704\uB85C \uB098\uB204\uC5B4 \uAE0D\uBD80\uC815 \uC218\uCE58\uB97C \uBD84\uC11D\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB192\uC744\uC218\uB85D \uAE0D\uC815\uC801\uC778 \uB2E8\uC5B4\uAC00 \uB9CE\uC774 \uD3EC\uD568\uB418\uC5C8\uB2E4\uACE0 \uBCF4\uC2DC\uBA74 \uB429\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           marginTop: "10px"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -15830,6 +15860,14 @@ var App = /*#__PURE__*/function (_React$Component) {
             width: "345px",
             height: "260px",
             marginLeft: "20px",
+            borderRadius: "10px"
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+          src: "https://i.ibb.co/d6p0nFM/Omicron-Predict.png",
+          style: {
+            width: "345px",
+            height: "260px",
+            marginLeft: "30px",
             borderRadius: "10px"
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -15889,7 +15927,7 @@ var App = /*#__PURE__*/function (_React$Component) {
         device = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           style: {
-            width: "710px",
+            width: "1180px",
             height: "150px",
             marginTop: "100px"
           }
@@ -15900,7 +15938,18 @@ var App = /*#__PURE__*/function (_React$Component) {
         }, "BitCoin\uC5D0 \uB300\uD55C wordcloud \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
           variant: "body2",
           color: "text.secondary"
-        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }, "\uB2E4\uC74C \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB4DC\uB294 Postive\uC640 Negative \uC218\uCE58\uB97C \uAE30\uC900\uC73C\uB85C \uB098\uB208 \uACB0\uACFC\uC785\uB2C8\uB2E4. \uCE21\uC815\uC218\uCE58\uAC00 0.7\uC774\uC0C1\uC5D0 \uB300\uD55C \uAC83\uACFC 0.3 \uC774\uD558\uC778 \uAC83\uC5D0 \uB300\uD574 \uC6CC\uB4DC\uD074\uB77C\uC6B0\uB529\uC744 \uC2E4\uD589\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB0AE\uC744\uC218\uB85D \uBD80\uC815 \uC218\uCE58\uB97C \uD45C\uD604\uD55C\uB2E4\uACE0 \uBCFC \uC218 \uC788\uC2B5\uB2C8\uB2E4."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          style: {
+            marginLeft: 30
+          }
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          gutterBottom: true,
+          variant: "h5",
+          component: "div"
+        }, "BitCoin\uC5D0 \uB300\uD55C \uAE0D\uBD80\uC815 \uC218\uCE58(Predict) \uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          variant: "body2",
+          color: "text.secondary"
+        }, "\uC218\uC9D1\uD55C \uB370\uC774\uD130\uB97C line\uB2E8\uC704\uB85C \uB098\uB204\uC5B4 \uAE0D\uBD80\uC815 \uC218\uCE58\uB97C \uBD84\uC11D\uD55C \uACB0\uACFC\uC785\uB2C8\uB2E4. \uC218\uCE58\uAC00 \uB192\uC744\uC218\uB85D \uAE0D\uC815\uC801\uC778 \uB2E8\uC5B4\uAC00 \uB9CE\uC774 \uD3EC\uD568\uB418\uC5C8\uB2E4\uACE0 \uBCF4\uC2DC\uBA74 \uB429\uB2C8\uB2E4.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
           display: "flex",
           marginTop: "10px"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -15916,6 +15965,14 @@ var App = /*#__PURE__*/function (_React$Component) {
             width: "345px",
             height: "260px",
             marginLeft: "20px",
+            borderRadius: "10px"
+          }
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+          src: "https://i.ibb.co/yf6x4gN/Bit-Coin-predict.png",
+          style: {
+            width: "345px",
+            height: "260px",
+            marginLeft: "30px",
             borderRadius: "10px"
           }
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
