@@ -23,5 +23,5 @@
 
 * resultViewPage.html
   - React를 사용하여 간단하게 만든 분석 결과를 파이차트와 워드클라우드를 올린 페이지입니다.
-  - <A href="htt_2.html"> Page로 이동</A>
+  - <A href="resultViewPage.html"> Page로 이동</A>
 
