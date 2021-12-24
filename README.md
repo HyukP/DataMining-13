@@ -23,5 +23,5 @@
 
 * resultViewPage.html
   - React를 사용하여 간단하게 만든 분석 결과를 파이차트와 워드클라우드를 올린 페이지입니다.
-  - file을 다운받아서 local환경에서 열어보시면 확인 가능합니다.
+  - 반드시 public 폴더 안의 bundle.js와 js.map도 함께 받아서 local 환경에서 열어보셔야 제대로 나옵니다.
 
