@@ -1,10 +1,10 @@
 import twitter
 import json
 
-twitter_consumer_key = 'UdBoo684EzNILSznhNw69ZSNV'
-twitter_consumer_secret = 'fqKPahwwbMd6Q81vcpiRLxCrNxCzcVlrdZjjxGO2EadjR1hjKv'
-twitter_access_token = '1464425905984774144-1iXiJOMIefaQg0uHFHFx1Bg811xpHM'
-twitter_access_secret = '9TqDWY6uALoCfTnlZpQ0BabmtiZInowO8YMbVYU9Rz5bL'
+twitter_consumer_key = '' // GitHub에서는 Hacking 염려로 비워두었습니다.
+twitter_consumer_secret = ''
+twitter_access_token = ''
+twitter_access_secret = ''
 
 twitter_api = twitter.Api(consumer_key=twitter_consumer_key,
                           consumer_secret = twitter_consumer_secret,
